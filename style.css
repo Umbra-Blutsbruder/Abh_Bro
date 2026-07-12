@@ -8,3 +8,7 @@ body {
 a {
     color: lightblue;
 }
+.article-image {
+    width: 300px;
+    height: auto;
+}
