@@ -13,3 +13,10 @@ a {
     width: 150px;
     height: auto;
 }
+
+}
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+}
