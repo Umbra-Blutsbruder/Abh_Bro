@@ -17,12 +17,32 @@
 <p><br></p>
 <p>The Unity Of The Left:<br></p>
 <a href="010103.html">Read Article</a>
-  
-<p><br><br>placeholder.</p>
-<img src="bible quran.png" alt="a bible and a quran" class="neuro-image">
  
- <p> </p>
+ <p><br><br></p>
+  <p> </p>
 <a href="index.html">Go back</a>
+ 
+<p></p>
+<img src="bible quran.png" alt="a bible and a quran" class="banner">
+ <p><br><br></p>
+
+<input type="text" id="secretWord" placeholder="Type here...">
+<button onclick="checkWord()">Go</button>
+
+<p id="message"></p>
+
+<script>
+function checkWord() {
+    const word = document.getElementById("secretWord").value.toLowerCase();
+
+    if (word === "neuro") {
+        window.location.href = "neuro.html";
+    } else {
+        document.getElementById("message").textContent = "Invalid";
+    }
+}
+</script>
+
 
 </body>
 </html>
